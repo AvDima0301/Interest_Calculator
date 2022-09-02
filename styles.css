@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.calculator {
+    font-family: monospace;
+    font-size: 18px;
+    color: grey;
+    background-color: whitesmoke;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 20px;
+    width: 550px;
+}
+
+.calculator h1 {
+    margin: 0px 0px 20px 0px;
+}
+
+.variables {
+    color: black;
+    font-size: 14px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: stretch;
+    align-items: center;
+}
+
+.variables p {
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+.inpt_amount {
+    width: 222px;
+}
+
+.inpt_amount::-webkit-outer-spin-button,
+.inpt_amount::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.slider_interest_rate {
+    display: grid;
+    grid-template-columns: 160px 70px;
+    justify-items: stretch;
+    width: 230px;
+}
+
+.no_of_year {
+    width: 40px;
+}
+
+.submit_interest {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.result {
+    width: 73%;
+    color: black;
+    justify-self: start;
+    font-size: 14px;
+}
+
+.span_result {
+    background-color: yellow;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+    color: black;
+}
